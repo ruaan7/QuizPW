@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link rel="stylesheet" href="quizz.css">
+</head>
+<body>
+    <div class="container">
+        <button class="button start-quiz">Iniciar o Quiz</button>
+        <div class="temas-container hide">
+            <p class="pergunta">Selecione o tema!</p>
+            
+                <button class="tema" data-tema="h">História</button>
+                <button class="tema" data-tema="b">Bandeiras</button>
+                <button class="tema" data-tema="d">Dança</button>
+                <button class="tema" data-tema="a">Artes marciais</button>
+                <button class="tema" data-tema="f">Futebol</button>         
+        </div>
+        <div class="perguntas-container hide">
+            <p class="pergunta"></p>
+            <ul class="respostas-container"></ul>
+            <button class="button prox-pergunta hide">Próxima Pergunta</button>
+        </div>
+    </div>
+   
+    </div>
+    <script src="quizz.js"></script>
+</body>
+</html>
